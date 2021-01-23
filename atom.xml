@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>kz96的博客</title>
+  
+  <subtitle>编程&amp;生活</subtitle>
+  <link href="https://kirkzheng.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://kirkzheng.github.io/"/>
+  <updated>2021-01-23T09:50:40.868Z</updated>
+  <id>https://kirkzheng.github.io/</id>
+  
+  <author>
+    <name>kz96</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>昨晚睡不着，思考的几件小事</title>
+    <link href="https://kirkzheng.github.io/2021/01/03/008/"/>
+    <id>https://kirkzheng.github.io/2021/01/03/008/</id>
+    <published>2021-01-03T05:50:51.000Z</published>
+    <updated>2021-01-23T09:50:40.868Z</updated>
+    
+    <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有一段时间没写博客了，估摸着两周到三周的样子，主要原因还是没时间，因为最近学习的内容变多了，尤其是servlet+jsp这一块，有多东西理解不了，单个还好，要是整个项目连起来就不找到从何下手。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我很早之前的时候在V2无意间关注了一个叫编码妙妙屋的个站，觉得写的挺好，就加了友链，但一直没怎么认真观看里面的内容，昨天晚上实在睡不着就开始认真阅读他的博文，谁知道看完以后更加睡不着，心想这哥们也太牛逼了吧！最近的几篇文章说他因为上份工作做得不开心从二线跑了一线工资翻了两倍的事情，但因为担心学历问题没敢接阿里的offer，真大佬，而且说自己要开始做一个网站。字里行间看得出这哥们也就毕业一两年的样子，大概二十三四岁。这哥们是真的热爱编程，我与对比了一下自己，嘴上说着喜欢编程，但大部分时间都用来刷推特了，注意力很容易分散，遇到一些编程问题无法解决时就想着放弃，说白了还是是知识面太窄，没有思路，写的代码太少，基础不扎实。其实这里面还是更深人的问题，因为前几年经历的一些事情以及家庭观念的影响我一直没能坚定的想走这一条路，大多数时候都在孤军奋战，很辛苦！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年龄越拖越大，牵绊的事情也是越来越多，越容易分心，最痛苦的还是爱面子的父亲一直催着找媳妇，是真的烦，我想了自己也没多大，96年也就二十四五。其实我本人也很焦虑着急，可这事又急不来，家里是农村的，以前的成长经历给我留下了很不好的记忆，不想过之前的日子。爱情是奢侈，学校的时候追过一个女生却是以笑话收场，后面有女孩子喜欢我也不敢谈了，没有物质的爱情，真的怕了！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在不想管那么多，只想搞钱，我认识了一位年龄比我大两岁的女性，给我的感觉是很温柔，很贴心。好像有点喜欢她，我、想追她，所以我必须找一份稳定高薪的工作，而编程是最适合的出路。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;有一段时间没写博客了，估摸着两周到三周的样子，主要原因还是没时间，因为最近学习的内容变多了，尤其是servlet+jsp这一块，有多东西理解不了，单个还好，要是整个项目连起来就不</summary>
+      
+    
+    
+    
+    <category term="闲暇时间的胡思乱想" scheme="https://kirkzheng.github.io/categories/%E9%97%B2%E6%9A%87%E6%97%B6%E9%97%B4%E7%9A%84%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
+    
+    
+    <category term="感想" scheme="https://kirkzheng.github.io/tags/%E6%84%9F%E6%83%B3/"/>
+    
+    <category term="思考" scheme="https://kirkzheng.github.io/tags/%E6%80%9D%E8%80%83/"/>
+    
+    <category term="生活" scheme="https://kirkzheng.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用tomcat遇到的一些问题及处理办法</title>
+    <link href="https://kirkzheng.github.io/2020/12/21/007/"/>
+    <id>https://kirkzheng.github.io/2020/12/21/007/</id>
+    <published>2020-12-21T02:21:45.000Z</published>
+    <updated>2021-01-23T09:50:40.868Z</updated>
+    
+    <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近搭建tomcat遇到了不少问题，其实都是一些低级问题，解决以后才发现原来这么简单，但人们总是会忽略一些简单的问题，导致卡在那里耽误不少时间，我把我遇到的一些坑汇总一下给大家提供参考借鉴：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在使用IDEA创建完web项目并部署到tomcat启动以后，页面总是会跳转到默认生成的index.jsp 界面，因为我web.xml自带的只有5.0版本，servlet通过注解调用完以后，只能通过地址栏输入的方式显示form表单数据，这样很麻烦，就像往常的注册登录肯定是打开网页直接就定向到此页面，于是通过Google解决了此问题（尽量学会科学上网，国内搜索引擎的搜索质量都太低，不会科学上网的我这篇<a href="https://kirkzheng.github.io/2019/07/18/006/">文章</a>有教程），在web.xml添加如下代码：  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;welcome-file-list&gt;</span><br><span class="line">        &lt;welcome-file&gt;这里写你要定向到的页面&lt;&#x2F;welcome-file&gt;</span><br><span class="line">&lt;&#x2F;welcome-file-list&gt;</span><br></pre></td></tr></table></figure><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另外tomcat在每次构建完新的项目以后都会生成新的构建，所以最后不要频繁重启服务器，只需要重新部署即可。在项目完成后，进行打包操作后，tomcat服务器也经常会运行打包后war文件，需要对war包进行一个移除操作，tomcat启动时会自动对war进行一个解压缩操作。  </p><ul><li>【问题】log4j:WARN Please initialize the log4j system properly.没有正确初始化连接池)  </li><li>【解决办法】新建一个log4j配置文件，在里面添加以下内容：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">log4j.rootLogger&#x3D;INFO,logfile,stdout</span><br><span class="line"></span><br><span class="line">#log4j.logger.org.springframework.web.servlet&#x3D;INFO,db</span><br><span class="line"></span><br><span class="line">#log4j.logger.org.springframework.beans.factory.xml&#x3D;INFO</span><br><span class="line">#log4j.logger.com.neam.stum.user&#x3D;INFO,db</span><br><span class="line"></span><br><span class="line">#log4j.appender.stdout&#x3D;org.apache.log4j.ConsoleAppender</span><br><span class="line">#log4j.appender.stdout.layout&#x3D;org.apache.log4j.PatternLayout</span><br><span class="line">#log4j.appender.stdout.layout.ConversionPattern&#x3D;%d&#123;yyyy-MM-ddHH\:mm\:ss&#125;%p[%c]%X&#123;remoteAddr&#125;%X&#123;remotePort&#125;%X&#123;remoteHost&#125;%X&#123;remoteUser&#125;operator\:[\u59D3\u540D\:%X&#123;userName&#125;\u5DE5\u53F7\:%X&#123;userId&#125;]message\:&lt;%m&gt;%n</span><br><span class="line"></span><br><span class="line">#writelogintofile</span><br><span class="line">log4j.appender.logfile&#x3D;org.apache.log4j.DailyRollingFileAppender</span><br><span class="line">log4j.appender.logfile.Threshold&#x3D;warn</span><br><span class="line">log4j.appender.logfile.File&#x3D;$&#123;webapp.root&#125;\\logs\\main.log</span><br><span class="line">log4j.appender.logfile.DatePattern&#x3D;.yyyy-MM-dd</span><br><span class="line">log4j.appender.logfile.layout&#x3D;org.apache.log4j.PatternLayout</span><br><span class="line">log4j.appender.logfile.layout.ConversionPattern&#x3D;[AppLog]%d&#123;yyyy-MM-ddHH\:mm\:ss&#125;%X&#123;remoteAddr&#125;%X&#123;remotePort&#125;%m%n</span><br></pre></td></tr></table></figure></li></ul><ul><li>数据库语句越界异常<br><code>java.sql.SQLException: Parameter index out of range (1 &gt; number of parameters, which is 0).</code><br>【解决】数据库语句用了中文状态下的符号，改成英文就行</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;最近搭建tomcat遇到了不少问题，其实都是一些低级问题，解决以后才发现原来这么简单，但人们总是会忽略一些简单的问题，导致卡在那里耽误不少时间，我把我遇到的一些坑汇总一下给大家提</summary>
+      
+    
+    
+    
+    <category term="Java基础知识" scheme="https://kirkzheng.github.io/categories/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+    
+    <category term="Java" scheme="https://kirkzheng.github.io/tags/Java/"/>
+    
+    <category term="基础" scheme="https://kirkzheng.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="问题" scheme="https://kirkzheng.github.io/tags/%E9%97%AE%E9%A2%98/"/>
+    
+    <category term="处理" scheme="https://kirkzheng.github.io/tags/%E5%A4%84%E7%90%86/"/>
+    
+    <category term="tomcat" scheme="https://kirkzheng.github.io/tags/tomcat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java常见异常及处理方法</title>
+    <link href="https://kirkzheng.github.io/2020/12/17/005/"/>
+    <id>https://kirkzheng.github.io/2020/12/17/005/</id>
+    <published>2020-12-17T03:57:18.000Z</published>
+    <updated>2021-01-23T09:50:40.867Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p><strong>FileNotFoundException异常</strong><br><code>Exception in thread &quot;main&quot; java.io.FileNotFoundException: demo1.txt (系统找不到指定的文件。)</code><br>Q:将多个文件写入到一个文件中，<br>其中有一个没有的文件时就会出现这个问题<br>A:创建这个没有的文件</p></li><li><p><strong>NumberFormatException异常</strong><br><code>Exception in thread &quot;main&quot; java.lang.NumberFormatException: For input string: &quot;dgdfg&quot;</code><br>Q:创建IO流时输入类型不匹配异常，输入的字符类型与指定的类型不一致<br>A：输入指定的字符类型</p></li><li><p><strong>HTTP状态 500 - 内部服务器错误</strong>  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">HTTP状态 500 - 内部服务器错误</span><br><span class="line">类型 异常报告</span><br><span class="line"></span><br><span class="line">消息 Servlet执行抛出一个异常</span><br><span class="line"></span><br><span class="line">描述 服务器遇到一个意外的情况，阻止它完成请求。</span><br><span class="line"></span><br><span class="line">例外情况</span><br><span class="line"></span><br><span class="line">javax.servlet.ServletException: Servlet执行抛出一个异常</span><br><span class="line">org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)</span><br><span class="line">根本原因。</span><br><span class="line"></span><br><span class="line">java.lang.ExceptionInInitializerError</span><br><span class="line">com.kk.service.AdminServiceImpl.login(AdminServiceImpl.java:16)</span><br><span class="line">com.kk.servlet.LoginServlet.doGet(LoginServlet.java:26)</span><br><span class="line">com.kk.servlet.LoginServlet.doPost(LoginServlet.java:56)</span><br><span class="line">javax.servlet.http.HttpServlet.service(HttpServlet.java:652)</span><br><span class="line">javax.servlet.http.HttpServlet.service(HttpServlet.java:733)</span><br><span class="line">org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)</span><br><span class="line">根本原因。</span><br><span class="line"></span><br><span class="line">java.lang.NullPointerException</span><br><span class="line">java.util.Properties$LineReader.readLine(Properties.java:434)</span><br><span class="line">java.util.Properties.load0(Properties.java:353)</span><br><span class="line">java.util.Properties.load(Properties.java:341)</span><br><span class="line">com.kk.utils.DbUtils.&lt;clinit&gt;(DbUtils.java:25)</span><br><span class="line">com.kk.service.AdminServiceImpl.login(AdminServiceImpl.java:16)</span><br><span class="line">com.kk.servlet.LoginServlet.doGet(LoginServlet.java:26)</span><br><span class="line">com.kk.servlet.LoginServlet.doPost(LoginServlet.java:56)</span><br><span class="line">javax.servlet.http.HttpServlet.service(HttpServlet.java:652)</span><br><span class="line">javax.servlet.http.HttpServlet.service(HttpServlet.java:733)</span><br><span class="line">org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)</span><br><span class="line">):注意 主要问题的全部 stack 信息可以在 server logs 里查看</span><br><span class="line"></span><br><span class="line">Apache Tomcat&#x2F;8.5.60</span><br></pre></td></tr></table></figure></li></ul><p>&nbsp;&nbsp;&nbsp;&nbsp;Q:JDBC配置名称与调用时的名称不一样，找不到数据库<br>&nbsp;&nbsp;&nbsp;&nbsp;A:修改名称，让两者保持一致</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;FileNotFoundException异常&lt;/strong&gt;&lt;br&gt;&lt;code&gt;Exception in thread &amp;quot;main&amp;quot; java.io.FileNotFoundException: demo1.txt </summary>
+      
+    
+    
+    
+    <category term="Java基础知识" scheme="https://kirkzheng.github.io/categories/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+    
+    <category term="Java" scheme="https://kirkzheng.github.io/tags/Java/"/>
+    
+    <category term="异常" scheme="https://kirkzheng.github.io/tags/%E5%BC%82%E5%B8%B8/"/>
+    
+    <category term="基础" scheme="https://kirkzheng.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="问题" scheme="https://kirkzheng.github.io/tags/%E9%97%AE%E9%A2%98/"/>
+    
+    <category term="处理" scheme="https://kirkzheng.github.io/tags/%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown经常会用到的语法</title>
+    <link href="https://kirkzheng.github.io/2020/12/13/003/"/>
+    <id>https://kirkzheng.github.io/2020/12/13/003/</id>
+    <published>2020-12-13T07:48:44.000Z</published>
+    <updated>2021-01-23T09:50:40.867Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Markdown是一种常见的文本格式,功能强大,美观易用,其实我也是现学现卖,这段时间刚好需要天天用,就买弄卖弄哈!</strong></p><ol><li>首先是控制标题大小，用h1-h5表示，语法结构用&lt;&gt;内容&lt;/&gt;表示常用的话这个区间是可以了。 这里就不一一列举了，也可以用#号表示，#越多字越小。标题的大小会在网页中以阶梯的格式呈现。  </li><li>另外我们经常会用到空格和换行，空格用&amp;nbsp、换行敲两下空格键再按回车。段落用p表示，这样：&lt;&gt;内容&lt;/&gt;，这跟换行+换行的效果其实是一样的。  </li><li>列表可以用*-+以及数字+“.”表示,语法是标记后面敲一下空格。下面我们来看看效果：     </li></ol><p>3.1 这是无序列表  </p><ul><li>列表一 </li></ul><ul><li>列表二</li></ul><ul><li>列表三  </li></ul><p>3.2 这是有序列表  </p><ol><li>列表四   </li><li>列表五   </li><li>列表六   </li><li>列表七   </li></ol><p>3.3 列表之间还可以嵌套  </p><ol><li>父列表  </li></ol><ul><li>子列表  </li><li>子列表  </li></ul><ol start="2"><li>父列表  </li></ol><ol start="4"><li>设置区块内容，区块用&gt;表示，也可多层嵌套，&gt;多的是少的子区块。  <blockquote><p>区块1  </p><blockquote><p>区块2  </p><blockquote><blockquote><p>区块4   </p></blockquote></blockquote></blockquote></blockquote></li></ol><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.经常用到markdown的会是谁呢？？是的，你没有猜错，就是程序员同志。经常需要引用代码块，我们来看看代码块在markdown是怎么用的？？<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>代码块用键盘数字1左边类似引号的符号表示，不是单引号双引号那个引号，这是一个单行引用，输出print（&#39;hello&#39;）</code><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">    多行引用则需要使用三个类似引号的符号，它会将包裹的内容引用在一个区间，在里面可以TXT格式写内容。</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(string args[])</span></span>&#123;</span><br><span class="line">        System.out.print(<span class="string">"这是一条测试语句！"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. 我们有时候可能需要图片，它的引用方式是超链接的引用方式差不多。是这样的：<br>  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 一个感叹号后面跟着中括号和小括号，中括号里面写图片概述，也可以不写，小括号里面放图片链接，可以是绝对路径，也可以是相对路径，这只是本地方式，另外可以用网络图床的方式，但是我没验证过，不好下结论，它的形式是在括号里面加图片的网络路径。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小更新，通过本地文件插入图片的方式总是失效，就不用了，图床太麻烦，反正大多数都是文字和代码，不用图片markdown语法也够用了。</p><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. 最后说一个不怎会用到的表格标记：|和-&nbsp;&nbsp;&nbsp;&nbsp;使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。我们来看看示例:  </p><table><thead><tr><th>表头</th><th>表头</th></tr></thead><tbody><tr><td>表格</td><td>表格</td></tr><tr><td>表格</td><td>表格</td></tr></tbody></table><p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>欧姬芭克！</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Markdown是一种常见的文本格式,功能强大,美观易用,其实我也是现学现卖,这段时间刚好需要天天用,就买弄卖弄哈!&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;首先是控制标</summary>
+      
+    
+    
+    
+    <category term="Markdown实用教程" scheme="https://kirkzheng.github.io/categories/Markdown%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="markdown" scheme="https://kirkzheng.github.io/tags/markdown/"/>
+    
+    <category term="教程" scheme="https://kirkzheng.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="写作" scheme="https://kirkzheng.github.io/tags/%E5%86%99%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单描述从我记事起到现在的经历</title>
+    <link href="https://kirkzheng.github.io/2019/10/13/002/"/>
+    <id>https://kirkzheng.github.io/2019/10/13/002/</id>
+    <published>2019-10-13T05:37:14.000Z</published>
+    <updated>2021-01-23T09:50:40.866Z</updated>
+    
+    <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二十岁做三十岁的事情叫成熟，而三十岁去做二十岁的事情就恐怕已经不能用幼稚去形容了，我属于后者。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实在在很早的时候我就察觉到自己跟别人不太一样，大概是从小学就开始。我是在农村长大的，就是那种典型的中国式农村，交通闭塞，信息落后，我现在还能记事起的就是五岁开始的，当时我妈要去我爸那里打工，也就是深圳，村前有条毛马路，现在已经变成水泥路了，我妈经过的时候，我还在路边的小溪里面玩水，我妈抱了抱我，我以为老妈只是去办事情，马上就会回来的，鬼知道一去就是一年，后面爷爷跟我说老妈打工去了，奇怪的是当时我也没多大感触，只是怔怔不说话了一会儿，就继续玩去了。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六岁的时候开始上幼儿园，幼儿园是在隔壁村子的一座农民房改建的，一个女老师教我们所有课程，其实也就是语文数学，上完课了有时还会带我们去她家吃饭，她家就在学校附近，在我的印象中她是一位好老师，哦！对了，她姓张。幼儿园待了一年开始上小学，小学是在离家稍微远一点的镇子上，小学的六年时间里开始显现我的读书天赋，周围同学死活弄不懂的问题我觉得特别简单。每次的期中期末考试不是第一就是第二，评判名次的方式很简单，就看各科分数的总和，主要还是语文和数学，谁高谁就是第一，按年级排名，我记得当时一年纪和二年纪是两个班来着，后面学校改建三年级到六年级就变成三个班了，每个年级人数平均下来大概有一百四十人的样子。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小学有次手拉手的活动给我的印象格外深刻，就是县城的同龄孩子给我们送礼物，有包有书有各种玩的，那让我第一次感受到自卑，当然那是不清楚那是自卑，只觉得和他们在一起有点束手束脚，放不开，之前我是从来没去过镇子以外的任何地方。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有点事情，待会继续写…..<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上面说完了小学，接着说初中，初中那个十五六岁的年纪应该算是最容易出心理问题的时候，我也不例外。镇上就一所中学，又都是留守儿童，总有发生一些打架斗殴、欺凌学生的烂事，虽然我并没有参与其中，但这确确实实影响了我。那时候我很喜欢看书，特别爱幻想，成绩也还保持的不错，发生转变是在初二换班的时候。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;刚刚电脑出了点问题，我没啥心思写了，就简单描述一下把，后面成绩变得很差，上了县里最差的一所高中，接着又上了个大专。大专毕业工作不太好找，一直在瞎混，工资很低，而且我又特别喜欢吃，都用在这上面了。曾经还有过一段时间想移民，后来发现不现实，就彻底放弃了。关于爱情：追过两个女孩，没有一次是成功的，都是被拒绝，她们现在好像都结婚了。 </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;二十岁做三十岁的事情叫成熟，而三十岁去做二十岁的事情就恐怕已经不能用幼稚去形容了，我属于后者。&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;n</summary>
+      
+    
+    
+    
+    <category term="闲暇时间的胡思乱想" scheme="https://kirkzheng.github.io/categories/%E9%97%B2%E6%9A%87%E6%97%B6%E9%97%B4%E7%9A%84%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
+    
+    <category term="一段时间的回顾" scheme="https://kirkzheng.github.io/categories/%E9%97%B2%E6%9A%87%E6%97%B6%E9%97%B4%E7%9A%84%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E7%9A%84%E5%9B%9E%E9%A1%BE/"/>
+    
+    
+    <category term="关于" scheme="https://kirkzheng.github.io/tags/%E5%85%B3%E4%BA%8E/"/>
+    
+    <category term="回顾" scheme="https://kirkzheng.github.io/tags/%E5%9B%9E%E9%A1%BE/"/>
+    
+    <category term="感想" scheme="https://kirkzheng.github.io/tags/%E6%84%9F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows也能像MacOS一样丝滑</title>
+    <link href="https://kirkzheng.github.io/2019/07/18/006/"/>
+    <id>https://kirkzheng.github.io/2019/07/18/006/</id>
+    <published>2019-07-18T04:16:52.000Z</published>
+    <updated>2021-01-23T09:50:40.867Z</updated>
+    
+    <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近新入手了一个thinkpad，之前的mbp给卖了，买的原因就不提了，卖thinkpad的是因为预算不足，然额经过一周的上手，发现巨硬的系统是越来好用了，从mac过渡过来是一点问题没有，而且还可以白嫖很多好收费的软件，简直不要太爽！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在mac最常用的就是全局搜索工具Alfred,确实方便，Windows平台上其实也有一个咱们国人开发的全局搜索工具Wox，用了一会儿，发现比Alfred还好用，大伙可以去官网<a href="http://www.wox.one/" target="_blank" rel="noopener">won.one</a>下载，注意要下载完整的安装包。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;并且安装的时候也要全部安装，所有的东西都是相辅相成的。用过你就会知道，马上就离不开了。MacOS有个终端工具iterm2挺好用，win可以用git代替，功能或许没有那么强大，满足基本需求也还是可以的。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Windows因为其庞大的用户，所以很多软件开发商都会为其开发软件，二位因为其exe文件很容易反编译，也就是可以破解，升值一些偏门的软甲只有win平台有，我就给大家推荐个人常用的科学上网软件<a href="http://dongtaiwang.com/loc/download.php" target="_blank" rel="noopener">自由门</a>，是臭名昭著的反共网站大纪元开发的免费翻墙工具，别说还真的挺好用，估计是免费的里面最好的了，反正我又不用来反共，俺觉着共产党治理下的祖国还是很好的。自由门需要翻墙下载，大伙们可以先去GitHub上面下载<a href="https://github.com/getlantern/lantern" target="_blank" rel="noopener">蓝灯</a>，这个不用翻墙，安装上蓝灯再去下自由门,蓝灯不怎么稳定，速度也慢，所以我也就没推荐了，不差钱的可以使用付费的<a href="https://letsvpn.world/?hl=zh" target="_blank" rel="noopener">快连VPN</a>，速度很快，价格也很实惠。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有时我们觉着win10自带的软件太多又不怎么会用得着，我们可以使用<code>Get-AppxPackage * | Remove-AppxPackage</code>命令一键删除，再装上我们自己想要安装的软件，其实win10自带的应用都挺好用的，看个人喜好，我是删了的。什么问题都没有，很清爽，这也是微软允许的操作，操作方法是快捷键<strong><em>Windows + S</em></strong>，输入<strong><em>powershell</em></strong>，然后右键选择「以管理员身份运行」，输入上述命令，等待几分钟就可以了。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另外系统必备的软件推荐一下：</p><ul><li>射手影音经典版–小巧却功能强大的视频软件</li><li>QQ轻聊版–精简过的QQ，官网已经下架了</li><li>搜狗输入法智慧版–比原版更有智慧</li><li>比特彗星–下载工具，比迅雷良心</li><li>Bandizip–轻便简洁的文件解压缩工具</li><li>Foxmail–腾讯出的第三方邮箱客户端  </li></ul><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览器用自带的就好了，注意是新版的Edge，个人感觉比Chrome更省电速度也更快。  </p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>重大更新，我给win10装了一个终端！！！</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这几天突然有点想念MacOS的终端，寻思想想能不能在win平台整一个，谷歌一搜，还真有办法，我按照博客园的<a href="https://www.cnblogs.com/feipeng8848/p/8555648.html" target="_blank" rel="noopener">Win10安装cygwin并添加apt-cyg</a>这篇博客装上了终端，按照<a href="https://segmentfault.com/a/1190000013612471" target="_blank" rel="noopener">zsh+on-my-zsh配置教程指南（程序员必备）【已备份】</a>这篇文章让终端变得更好用，喜欢折腾的可以试试！！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果遇到无法访问github的情况可以在<code>C:\Windows\System32\drivers\etc\hosts文件中添加199.232.68.133 raw.githubusercontent.com解决</code>亲测有效！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;最近新入手了一个thinkpad，之前的mbp给卖了，买的原因就不提了，卖thinkpad的是因为预算不足，然额经过一周的上手，发现巨硬的系统是越来好用了，从mac过渡过来是一点</summary>
+      
+    
+    
+    
+    <category term="Windows10的相关配置" scheme="https://kirkzheng.github.io/categories/Windows10%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="win10" scheme="https://kirkzheng.github.io/tags/win10/"/>
+    
+    <category term="配置" scheme="https://kirkzheng.github.io/tags/%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="优化" scheme="https://kirkzheng.github.io/tags/%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>时间黑洞--我的时间是怎样消失的？</title>
+    <link href="https://kirkzheng.github.io/2019/03/16/004/"/>
+    <id>https://kirkzheng.github.io/2019/03/16/004/</id>
+    <published>2019-03-16T01:19:04.000Z</published>
+    <updated>2021-01-23T09:50:40.867Z</updated>
+    
+    <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近一段时间我几乎天天两三点才睡，昨天比以往还要更晚睡一点，因为实在是太焦虑，焦虑的原因有很多，不便细说。我扣一会儿手机就望着天花板想一会儿，我突然感到自己好像什么技能都不会，以前从事大都也是一些门槛低，可替代性特别强的工作。深究其中的原因，还是没能好好去持续性学习一些东西。我以前有大把时间去学习我常常挂在嘴上的编程，具体来说应该是Java相关的知识，大学专业也是这个，也看过不少书，像Java编程思想、Java核心技术、Java疯狂讲义等等，然而大都只是看看就忘了。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本来大学的暑假期间是最好的实习期间段，但是得去工厂打工挣学费。打工给我深的感受就是你会觉每天做着简单的工作然后每个月定时领工资会感到有点满足，甚至很舒服，时间久了便陷进去了，在加上人的本能驱动，会想着寻找快感，吃喝玩以及性，微薄的工资导致你有不敢轻易辞职，循环往复，这样搞久了人就废了。不是说歧视工厂打工的。每个人生活都不容易，出生教育环境等等一系列原因，我要有钱我也不会去打工，那是没办法的。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实即使是打工我还是有时间学习的，但是我爱折腾的性格导致了时间的大量浪费，学校的课程有很多，而我竟然认为老师的教育方式不适合我，靠着自己的蛮力去自学，现在想想真是天真。当我把必修的课程学完之后，确保不会挂科之后就往宿舍开始自己倒腾，找网上课程，找文档，找学习路线等，等到学不进去的时候特别难受，自闭的不行，宿舍另外几个又都是天天打游戏的，碰到问题一个能问的都没有。把题目放到社区半天没个响动，效率太低。学校的网络也是到点断，有时候思路心态也跟着断了。大学的时候还学着追女孩，结果惨遭拒绝，只留下一段痛苦的回忆，这个又让我浪费了不少精力。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实即使是这样我还有时间能够找到学习到找到实习的程度的，然而我那爱折腾的好奇的性格又开始发挥魔力，我被拒绝后是真的不想找女朋友，当时的状态也不适合找，就没事折腾电脑，学着翻墙搞搞虚拟机，然而就只会配置个环境，翻完墙之后什么Twitter、Instagram、YouTube这些外国人玩烂的东西又消磨了我大量时间，推特是我花费时间最长的。国内时间黑洞应用也玩过很多，像抖音、豆瓣、微博、知乎、贴吧、王者荣耀、吃鸡等等，不过这些我在近期能注销的都注销了，以前觉得离不开，离开一段时间以后发现也什么，对我的生活没有啥影响。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平平淡淡才是真！现在只想做个俗人，现实一点，工作稳定下来，把自己和父母照顾好，把亲戚朋友的关系维系好，真的是一点都不想折腾了，没啥意思，以前对性很渴望，当我多次尝试后发现自己还是想要认真谈一份感情，然而感情的事情又不能强求，一切随缘吧！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;最近一段时间我几乎天天两三点才睡，昨天比以往还要更晚睡一点，因为实在是太焦虑，焦虑的原因有很多，不便细说。我扣一会儿手机就望着天花板想一会儿，我突然感到自己好像什么技能都不会，以</summary>
+      
+    
+    
+    
+    <category term="闲暇时间的胡思乱想" scheme="https://kirkzheng.github.io/categories/%E9%97%B2%E6%9A%87%E6%97%B6%E9%97%B4%E7%9A%84%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
+    
+    
+    <category term="感想" scheme="https://kirkzheng.github.io/tags/%E6%84%9F%E6%83%B3/"/>
+    
+    <category term="时间" scheme="https://kirkzheng.github.io/tags/%E6%97%B6%E9%97%B4/"/>
+    
+    <category term="孤独" scheme="https://kirkzheng.github.io/tags/%E5%AD%A4%E7%8B%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无语——写在重新搭建博客之后</title>
+    <link href="https://kirkzheng.github.io/2018/01/28/001/"/>
+    <id>https://kirkzheng.github.io/2018/01/28/001/</id>
+    <published>2018-01-28T05:33:55.000Z</published>
+    <updated>2021-01-23T09:50:40.866Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为本地文件误删除，<br>导致之前写的文章全部都丢失了、、<br>今天又重新配置了一番，<br>希望不会出问题。</p><p>加上这一次，<br>我总共搭了三次的博客…</p><p>经过前面的教训，<br>我在码云和GitHub上<br>对博客源文件都进行了备份。</p><p>我总是喜欢胡思乱想，<br>刚好博客可以治治我这个毛病。</p><p>博客主要目的是<br>为了记录学习Java的一些情况<br>和个人的一些生活片段，<br>所感所悟~</p><p>时隔一年，Github的io域名竟然被墙了，<br>呜呼哀哉！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;因为本地文件误删除，&lt;br&gt;导致之前写的文章全部都丢失了、、&lt;br&gt;今天又重新配置了一番，&lt;br&gt;希望不会出问题。&lt;/p&gt;
+&lt;p&gt;加上这一次，&lt;br&gt;我总共搭了三次的博客…&lt;/p&gt;
+&lt;p&gt;经过前面的教训，&lt;br&gt;我在码云和GitHub上&lt;br&gt;对博客源文件都进行了备份。&lt;/</summary>
+      
+    
+    
+    
+    <category term="关于这个博客" scheme="https://kirkzheng.github.io/categories/%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="关于" scheme="https://kirkzheng.github.io/tags/%E5%85%B3%E4%BA%8E/"/>
+    
+    <category term="开始" scheme="https://kirkzheng.github.io/tags/%E5%BC%80%E5%A7%8B/"/>
+    
+  </entry>
+  
+</feed>
