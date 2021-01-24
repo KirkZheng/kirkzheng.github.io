@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>简单描述从我记事起到现在的经历</title>
-    <url>/2019/10/13/002/</url>
-    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二十岁做三十岁的事情叫成熟，而三十岁去做二十岁的事情就恐怕已经不能用幼稚去形容了，我属于后者。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实在在很早的时候我就察觉到自己跟别人不太一样，大概是从小学就开始。我是在农村长大的，就是那种典型的中国式农村，交通闭塞，信息落后，我现在还能记事起的就是五岁开始的，当时我妈要去我爸那里打工，也就是深圳，村前有条毛马路，现在已经变成水泥路了，我妈经过的时候，我还在路边的小溪里面玩水，我妈抱了抱我，我以为老妈只是去办事情，马上就会回来的，鬼知道一去就是一年，后面爷爷跟我说老妈打工去了，奇怪的是当时我也没多大感触，只是怔怔不说话了一会儿，就继续玩去了。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六岁的时候开始上幼儿园，幼儿园是在隔壁村子的一座农民房改建的，一个女老师教我们所有课程，其实也就是语文数学，上完课了有时还会带我们去她家吃饭，她家就在学校附近，在我的印象中她是一位好老师，哦！对了，她姓张。幼儿园待了一年开始上小学，小学是在离家稍微远一点的镇子上，小学的六年时间里开始显现我的读书天赋，周围同学死活弄不懂的问题我觉得特别简单。每次的期中期末考试不是第一就是第二，评判名次的方式很简单，就看各科分数的总和，主要还是语文和数学，谁高谁就是第一，按年级排名，我记得当时一年纪和二年纪是两个班来着，后面学校改建三年级到六年级就变成三个班了，每个年级人数平均下来大概有一百四十人的样子。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小学有次手拉手的活动给我的印象格外深刻，就是县城的同龄孩子给我们送礼物，有包有书有各种玩的，那让我第一次感受到自卑，当然那是不清楚那是自卑，只觉得和他们在一起有点束手束脚，放不开，之前我是从来没去过镇子以外的任何地方。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有点事情，待会继续写…..<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上面说完了小学，接着说初中，初中那个十五六岁的年纪应该算是最容易出心理问题的时候，我也不例外。镇上就一所中学，又都是留守儿童，总有发生一些打架斗殴、欺凌学生的烂事，虽然我并没有参与其中，但这确确实实影响了我。那时候我很喜欢看书，特别爱幻想，成绩也还保持的不错，发生转变是在初二换班的时候。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;刚刚电脑出了点问题，我没啥心思写了，就简单描述一下把，后面成绩变得很差，上了县里最差的一所高中，接着又上了个大专。大专毕业工作不太好找，一直在瞎混，工资很低，而且我又特别喜欢吃，都用在这上面了。曾经还有过一段时间想移民，后来发现不现实，就彻底放弃了。关于爱情：追过两个女孩，没有一次是成功的，都是被拒绝，她们现在好像都结婚了。 </p>
-]]></content>
-      <categories>
-        <category>闲暇时间的胡思乱想</category>
-        <category>一段时间的回顾</category>
-      </categories>
-      <tags>
-        <tag>关于</tag>
-        <tag>回顾</tag>
-        <tag>感想</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>无语——写在重新搭建博客之后</title>
     <url>/2018/01/28/001/</url>
     <content><![CDATA[<p>因为本地文件误删除，<br>导致之前写的文章全部都丢失了、、<br>今天又重新配置了一番，<br>希望不会出问题。</p>
@@ -116,6 +101,32 @@
       </tags>
   </entry>
   <entry>
+    <title>Java常见异常及处理方法</title>
+    <url>/2020/12/17/005/</url>
+    <content><![CDATA[<ul>
+<li><p><strong>FileNotFoundException异常</strong><br><code>Exception in thread &quot;main&quot; java.io.FileNotFoundException: demo1.txt (系统找不到指定的文件。)</code><br>Q:将多个文件写入到一个文件中，<br>其中有一个没有的文件时就会出现这个问题<br>A:创建这个没有的文件</p>
+</li>
+<li><p><strong>NumberFormatException异常</strong><br><code>Exception in thread &quot;main&quot; java.lang.NumberFormatException: For input string: &quot;dgdfg&quot;</code><br>Q:创建IO流时输入类型不匹配异常，输入的字符类型与指定的类型不一致<br>A：输入指定的字符类型</p>
+</li>
+<li><p><strong>HTTP状态 500 - 内部服务器错误</strong>  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">HTTP状态 500 - 内部服务器错误</span><br><span class="line">类型 异常报告</span><br><span class="line"></span><br><span class="line">消息 Servlet执行抛出一个异常</span><br><span class="line"></span><br><span class="line">描述 服务器遇到一个意外的情况，阻止它完成请求。</span><br><span class="line"></span><br><span class="line">例外情况</span><br><span class="line"></span><br><span class="line">javax.servlet.ServletException: Servlet执行抛出一个异常</span><br><span class="line">	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)</span><br><span class="line">根本原因。</span><br><span class="line"></span><br><span class="line">java.lang.ExceptionInInitializerError</span><br><span class="line">	com.kk.service.AdminServiceImpl.login(AdminServiceImpl.java:16)</span><br><span class="line">	com.kk.servlet.LoginServlet.doGet(LoginServlet.java:26)</span><br><span class="line">	com.kk.servlet.LoginServlet.doPost(LoginServlet.java:56)</span><br><span class="line">	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)</span><br><span class="line">	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)</span><br><span class="line">	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)</span><br><span class="line">根本原因。</span><br><span class="line"></span><br><span class="line">java.lang.NullPointerException</span><br><span class="line">	java.util.Properties$LineReader.readLine(Properties.java:434)</span><br><span class="line">	java.util.Properties.load0(Properties.java:353)</span><br><span class="line">	java.util.Properties.load(Properties.java:341)</span><br><span class="line">	com.kk.utils.DbUtils.&lt;clinit&gt;(DbUtils.java:25)</span><br><span class="line">	com.kk.service.AdminServiceImpl.login(AdminServiceImpl.java:16)</span><br><span class="line">	com.kk.servlet.LoginServlet.doGet(LoginServlet.java:26)</span><br><span class="line">	com.kk.servlet.LoginServlet.doPost(LoginServlet.java:56)</span><br><span class="line">	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)</span><br><span class="line">	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)</span><br><span class="line">	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)</span><br><span class="line">):注意 主要问题的全部 stack 信息可以在 server logs 里查看</span><br><span class="line"></span><br><span class="line">Apache Tomcat&#x2F;8.5.60</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Q:JDBC配置名称与调用时的名称不一样，找不到数据库<br>&nbsp;&nbsp;&nbsp;&nbsp;A:修改名称，让两者保持一致</p>
+]]></content>
+      <categories>
+        <category>Java基础知识</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>异常</tag>
+        <tag>基础</tag>
+        <tag>问题</tag>
+        <tag>处理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows也能像MacOS一样丝滑</title>
     <url>/2019/07/18/006/</url>
     <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近新入手了一个thinkpad，之前的mbp给卖了，买的原因就不提了，卖thinkpad的是因为预算不足，然额经过一周的上手，发现巨硬的系统是越来好用了，从mac过渡过来是一点问题没有，而且还可以白嫖很多好收费的软件，简直不要太爽！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在mac最常用的就是全局搜索工具Alfred,确实方便，Windows平台上其实也有一个咱们国人开发的全局搜索工具Wox，用了一会儿，发现比Alfred还好用，大伙可以去官网<a href="http://www.wox.one/" target="_blank" rel="noopener">won.one</a>下载，注意要下载完整的安装包。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;并且安装的时候也要全部安装，所有的东西都是相辅相成的。用过你就会知道，马上就离不开了。MacOS有个终端工具iterm2挺好用，win可以用git代替，功能或许没有那么强大，满足基本需求也还是可以的。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Windows因为其庞大的用户，所以很多软件开发商都会为其开发软件，二位因为其exe文件很容易反编译，也就是可以破解，升值一些偏门的软甲只有win平台有，我就给大家推荐个人常用的科学上网软件<a href="http://dongtaiwang.com/loc/download.php" target="_blank" rel="noopener">自由门</a>，是臭名昭著的反共网站大纪元开发的免费翻墙工具，别说还真的挺好用，估计是免费的里面最好的了，反正我又不用来反共，俺觉着共产党治理下的祖国还是很好的。自由门需要翻墙下载，大伙们可以先去GitHub上面下载<a href="https://github.com/getlantern/lantern" target="_blank" rel="noopener">蓝灯</a>，这个不用翻墙，安装上蓝灯再去下自由门,蓝灯不怎么稳定，速度也慢，所以我也就没推荐了，不差钱的可以使用付费的<a href="https://letsvpn.world/?hl=zh" target="_blank" rel="noopener">快连VPN</a>，速度很快，价格也很实惠。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有时我们觉着win10自带的软件太多又不怎么会用得着，我们可以使用<code>Get-AppxPackage * | Remove-AppxPackage</code>命令一键删除，再装上我们自己想要安装的软件，其实win10自带的应用都挺好用的，看个人喜好，我是删了的。什么问题都没有，很清爽，这也是微软允许的操作，操作方法是快捷键<strong><em>Windows + S</em></strong>，输入<strong><em>powershell</em></strong>，然后右键选择「以管理员身份运行」，输入上述命令，等待几分钟就可以了。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另外系统必备的软件推荐一下：</p>
@@ -140,29 +151,18 @@
       </tags>
   </entry>
   <entry>
-    <title>Java常见异常及处理方法</title>
-    <url>/2020/12/17/005/</url>
-    <content><![CDATA[<ul>
-<li><p><strong>FileNotFoundException异常</strong><br><code>Exception in thread &quot;main&quot; java.io.FileNotFoundException: demo1.txt (系统找不到指定的文件。)</code><br>Q:将多个文件写入到一个文件中，<br>其中有一个没有的文件时就会出现这个问题<br>A:创建这个没有的文件</p>
-</li>
-<li><p><strong>NumberFormatException异常</strong><br><code>Exception in thread &quot;main&quot; java.lang.NumberFormatException: For input string: &quot;dgdfg&quot;</code><br>Q:创建IO流时输入类型不匹配异常，输入的字符类型与指定的类型不一致<br>A：输入指定的字符类型</p>
-</li>
-<li><p><strong>HTTP状态 500 - 内部服务器错误</strong>  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">HTTP状态 500 - 内部服务器错误</span><br><span class="line">类型 异常报告</span><br><span class="line"></span><br><span class="line">消息 Servlet执行抛出一个异常</span><br><span class="line"></span><br><span class="line">描述 服务器遇到一个意外的情况，阻止它完成请求。</span><br><span class="line"></span><br><span class="line">例外情况</span><br><span class="line"></span><br><span class="line">javax.servlet.ServletException: Servlet执行抛出一个异常</span><br><span class="line">	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)</span><br><span class="line">根本原因。</span><br><span class="line"></span><br><span class="line">java.lang.ExceptionInInitializerError</span><br><span class="line">	com.kk.service.AdminServiceImpl.login(AdminServiceImpl.java:16)</span><br><span class="line">	com.kk.servlet.LoginServlet.doGet(LoginServlet.java:26)</span><br><span class="line">	com.kk.servlet.LoginServlet.doPost(LoginServlet.java:56)</span><br><span class="line">	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)</span><br><span class="line">	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)</span><br><span class="line">	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)</span><br><span class="line">根本原因。</span><br><span class="line"></span><br><span class="line">java.lang.NullPointerException</span><br><span class="line">	java.util.Properties$LineReader.readLine(Properties.java:434)</span><br><span class="line">	java.util.Properties.load0(Properties.java:353)</span><br><span class="line">	java.util.Properties.load(Properties.java:341)</span><br><span class="line">	com.kk.utils.DbUtils.&lt;clinit&gt;(DbUtils.java:25)</span><br><span class="line">	com.kk.service.AdminServiceImpl.login(AdminServiceImpl.java:16)</span><br><span class="line">	com.kk.servlet.LoginServlet.doGet(LoginServlet.java:26)</span><br><span class="line">	com.kk.servlet.LoginServlet.doPost(LoginServlet.java:56)</span><br><span class="line">	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)</span><br><span class="line">	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)</span><br><span class="line">	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)</span><br><span class="line">):注意 主要问题的全部 stack 信息可以在 server logs 里查看</span><br><span class="line"></span><br><span class="line">Apache Tomcat&#x2F;8.5.60</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Q:JDBC配置名称与调用时的名称不一样，找不到数据库<br>&nbsp;&nbsp;&nbsp;&nbsp;A:修改名称，让两者保持一致</p>
+    <title>简单描述从我记事起到现在的经历</title>
+    <url>/2019/10/13/002/</url>
+    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二十岁做三十岁的事情叫成熟，而三十岁去做二十岁的事情就恐怕已经不能用幼稚去形容了，我属于后者。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实在在很早的时候我就察觉到自己跟别人不太一样，大概是从小学就开始。我是在农村长大的，就是那种典型的中国式农村，交通闭塞，信息落后，我现在还能记事起的就是五岁开始的，当时我妈要去我爸那里打工，也就是深圳，村前有条毛马路，现在已经变成水泥路了，我妈经过的时候，我还在路边的小溪里面玩水，我妈抱了抱我，我以为老妈只是去办事情，马上就会回来的，鬼知道一去就是一年，后面爷爷跟我说老妈打工去了，奇怪的是当时我也没多大感触，只是怔怔不说话了一会儿，就继续玩去了。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六岁的时候开始上幼儿园，幼儿园是在隔壁村子的一座农民房改建的，一个女老师教我们所有课程，其实也就是语文数学，上完课了有时还会带我们去她家吃饭，她家就在学校附近，在我的印象中她是一位好老师，哦！对了，她姓张。幼儿园待了一年开始上小学，小学是在离家稍微远一点的镇子上，小学的六年时间里开始显现我的读书天赋，周围同学死活弄不懂的问题我觉得特别简单。每次的期中期末考试不是第一就是第二，评判名次的方式很简单，就看各科分数的总和，主要还是语文和数学，谁高谁就是第一，按年级排名，我记得当时一年纪和二年纪是两个班来着，后面学校改建三年级到六年级就变成三个班了，每个年级人数平均下来大概有一百四十人的样子。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小学有次手拉手的活动给我的印象格外深刻，就是县城的同龄孩子给我们送礼物，有包有书有各种玩的，那让我第一次感受到自卑，当然那是不清楚那是自卑，只觉得和他们在一起有点束手束脚，放不开，之前我是从来没去过镇子以外的任何地方。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有点事情，待会继续写…..<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上面说完了小学，接着说初中，初中那个十五六岁的年纪应该算是最容易出心理问题的时候，我也不例外。镇上就一所中学，又都是留守儿童，总有发生一些打架斗殴、欺凌学生的烂事，虽然我并没有参与其中，但这确确实实影响了我。那时候我很喜欢看书，特别爱幻想，成绩也还保持的不错，发生转变是在初二换班的时候。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;刚刚电脑出了点问题，我没啥心思写了，就简单描述一下把，后面成绩变得很差，上了县里最差的一所高中，接着又上了个大专。大专毕业工作不太好找，一直在瞎混，工资很低，而且我又特别喜欢吃，都用在这上面了。曾经还有过一段时间想移民，后来发现不现实，就彻底放弃了。关于爱情：追过两个女孩，没有一次是成功的，都是被拒绝，她们现在好像都结婚了。 </p>
 ]]></content>
       <categories>
-        <category>Java基础知识</category>
+        <category>闲暇时间的胡思乱想</category>
+        <category>一段时间的回顾</category>
       </categories>
       <tags>
-        <tag>Java</tag>
-        <tag>异常</tag>
-        <tag>基础</tag>
-        <tag>问题</tag>
-        <tag>处理</tag>
+        <tag>关于</tag>
+        <tag>回顾</tag>
+        <tag>感想</tag>
       </tags>
   </entry>
   <entry>
