@@ -19,60 +19,18 @@
       </tags>
   </entry>
   <entry>
-    <title>几点经验</title>
-    <url>/2021/01/25/010/</url>
-    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;之前没体验过的东西总是挂念于心，想着去体验一番，体验之后就再也不想经历第二次，除非是不得不做。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从经历过的事情中又可以反向得出原来是这样的规律，套用到很多地方。之前因为没被威胁过，所以很怕，不知道怎么处理，事后却发现什么事情也没有，以后遇到类似的事情也不至于慌乱。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所处的环境会产生很多环境带来的问题，选择环境很重要。胆小的原因大多是没人兜底，怕承担不起后果，这时候只能靠自己，大多数人都怕死，你只要不怕死，别人就会怕你，前提是你没做错什么。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一部分人喜欢教导他人顺从听话，做事畏手畏脚，一辈子小心谨慎，守着个一亩三分地，毫无社会价值。一部分人穷却又狂妄自大，最后慢慢变坏，沦为社会的蛀虫。两类都不可取。</p>
+    <title>简单描述从我记事起到现在的经历</title>
+    <url>/2019/10/13/002/</url>
+    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二十岁做三十岁的事情叫成熟，而三十岁去做二十岁的事情就恐怕已经不能用幼稚去形容了，我属于后者。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实在在很早的时候我就察觉到自己跟别人不太一样，大概是从小学就开始。我是在农村长大的，就是那种典型的中国式农村，交通闭塞，信息落后，我现在还能记事起的就是五岁开始的，当时我妈要去我爸那里打工，也就是深圳，村前有条毛马路，现在已经变成水泥路了，我妈经过的时候，我还在路边的小溪里面玩水，我妈抱了抱我，我以为老妈只是去办事情，马上就会回来的，鬼知道一去就是一年，后面爷爷跟我说老妈打工去了，奇怪的是当时我也没多大感触，只是怔怔不说话了一会儿，就继续玩去了。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六岁的时候开始上幼儿园，幼儿园是在隔壁村子的一座农民房改建的，一个女老师教我们所有课程，其实也就是语文数学，上完课了有时还会带我们去她家吃饭，她家就在学校附近，在我的印象中她是一位好老师，哦！对了，她姓张。幼儿园待了一年开始上小学，小学是在离家稍微远一点的镇子上，小学的六年时间里开始显现我的读书天赋，周围同学死活弄不懂的问题我觉得特别简单。每次的期中期末考试不是第一就是第二，评判名次的方式很简单，就看各科分数的总和，主要还是语文和数学，谁高谁就是第一，按年级排名，我记得当时一年纪和二年纪是两个班来着，后面学校改建三年级到六年级就变成三个班了，每个年级人数平均下来大概有一百四十人的样子。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小学有次手拉手的活动给我的印象格外深刻，就是县城的同龄孩子给我们送礼物，有包有书有各种玩的，那让我第一次感受到自卑，当然那是不清楚那是自卑，只觉得和他们在一起有点束手束脚，放不开，之前我是从来没去过镇子以外的任何地方。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有点事情，待会继续写…..<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上面说完了小学，接着说初中，初中那个十五六岁的年纪应该算是最容易出心理问题的时候，我也不例外。镇上就一所中学，又都是留守儿童，总有发生一些打架斗殴、欺凌学生的烂事，虽然我并没有参与其中，但这确确实实影响了我。那时候我很喜欢看书，特别爱幻想，成绩也还保持的不错，发生转变是在初二换班的时候。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;刚刚电脑出了点问题，我没啥心思写了，就简单描述一下把，后面成绩变得很差，上了县里最差的一所高中，接着又上了个大专。大专毕业工作不太好找，一直在瞎混，工资很低，而且我又特别喜欢吃，都用在这上面了。曾经还有过一段时间想移民，后来发现不现实，就彻底放弃了。关于爱情：追过两个女孩，没有一次是成功的，都是被拒绝，她们现在好像都结婚了。 </p>
 ]]></content>
       <categories>
         <category>闲暇时间的胡思乱想</category>
+        <category>一段时间的回顾</category>
       </categories>
       <tags>
-        <tag>经验</tag>
+        <tag>关于</tag>
+        <tag>回顾</tag>
         <tag>感想</tag>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用tomcat遇到的一些问题及处理办法</title>
-    <url>/2020/12/21/007/</url>
-    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近搭建tomcat遇到了不少问题，其实都是一些低级问题，解决以后才发现原来这么简单，但人们总是会忽略一些简单的问题，导致卡在那里耽误不少时间，我把我遇到的一些坑汇总一下给大家提供参考借鉴：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在使用IDEA创建完web项目并部署到tomcat启动以后，页面总是会跳转到默认生成的index.jsp 界面，因为我web.xml自带的只有5.0版本，servlet通过注解调用完以后，只能通过地址栏输入的方式显示form表单数据，这样很麻烦，就像往常的注册登录肯定是打开网页直接就定向到此页面，于是通过Google解决了此问题（尽量学会科学上网，国内搜索引擎的搜索质量都太低，不会科学上网的我这篇<a href="https://kirkzheng.github.io/2019/07/18/006/">文章</a>有教程），在web.xml添加如下代码：  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;welcome-file-list&gt;</span><br><span class="line">        &lt;welcome-file&gt;这里写你要定向到的页面&lt;&#x2F;welcome-file&gt;</span><br><span class="line">&lt;&#x2F;welcome-file-list&gt;</span><br></pre></td></tr></table></figure>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另外tomcat在每次构建完新的项目以后都会生成新的构建，所以最后不要频繁重启服务器，只需要重新部署即可。在项目完成后，进行打包操作后，tomcat服务器也经常会运行打包后war文件，需要对war包进行一个移除操作，tomcat启动时会自动对war进行一个解压缩操作。  </p>
-<ul>
-<li>【问题】log4j:WARN Please initialize the log4j system properly.没有正确初始化连接池)  </li>
-<li>【解决办法】新建一个log4j配置文件，在里面添加以下内容：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">log4j.rootLogger&#x3D;INFO,logfile,stdout</span><br><span class="line"></span><br><span class="line">#log4j.logger.org.springframework.web.servlet&#x3D;INFO,db</span><br><span class="line"></span><br><span class="line">#log4j.logger.org.springframework.beans.factory.xml&#x3D;INFO</span><br><span class="line">#log4j.logger.com.neam.stum.user&#x3D;INFO,db</span><br><span class="line"></span><br><span class="line">#log4j.appender.stdout&#x3D;org.apache.log4j.ConsoleAppender</span><br><span class="line">#log4j.appender.stdout.layout&#x3D;org.apache.log4j.PatternLayout</span><br><span class="line">#log4j.appender.stdout.layout.ConversionPattern&#x3D;%d&#123;yyyy-MM-ddHH\:mm\:ss&#125;%p[%c]%X&#123;remoteAddr&#125;%X&#123;remotePort&#125;%X&#123;remoteHost&#125;%X&#123;remoteUser&#125;operator\:[\u59D3\u540D\:%X&#123;userName&#125;\u5DE5\u53F7\:%X&#123;userId&#125;]message\:&lt;%m&gt;%n</span><br><span class="line"></span><br><span class="line">#writelogintofile</span><br><span class="line">log4j.appender.logfile&#x3D;org.apache.log4j.DailyRollingFileAppender</span><br><span class="line">log4j.appender.logfile.Threshold&#x3D;warn</span><br><span class="line">log4j.appender.logfile.File&#x3D;$&#123;webapp.root&#125;\\logs\\main.log</span><br><span class="line">log4j.appender.logfile.DatePattern&#x3D;.yyyy-MM-dd</span><br><span class="line">log4j.appender.logfile.layout&#x3D;org.apache.log4j.PatternLayout</span><br><span class="line">log4j.appender.logfile.layout.ConversionPattern&#x3D;[AppLog]%d&#123;yyyy-MM-ddHH\:mm\:ss&#125;%X&#123;remoteAddr&#125;%X&#123;remotePort&#125;%m%n</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ul>
-<ul>
-<li>数据库语句越界异常<br><code>java.sql.SQLException: Parameter index out of range (1 &gt; number of parameters, which is 0).</code><br>【解决】数据库语句用了中文状态下的符号，改成英文就行</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java基础知识</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>tomcat</tag>
-        <tag>基础</tag>
-        <tag>问题</tag>
-        <tag>处理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>昨晚睡不着，思考的几件小事</title>
-    <url>/2021/01/03/008/</url>
-    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有一段时间没写博客了，估摸着两周到三周的样子，主要原因还是没时间，因为最近学习的内容变多了，尤其是servlet+jsp这一块，有多东西理解不了，单个还好，要是整个项目连起来就不找到从何下手。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我很早之前的时候在V2无意间关注了一个叫编码妙妙屋的个站，觉得写的挺好，就加了友链，但一直没怎么认真观看里面的内容，昨天晚上实在睡不着就开始认真阅读他的博文，谁知道看完以后更加睡不着，心想这哥们也太牛逼了吧！最近的几篇文章说他因为上份工作做得不开心从二线跑了一线工资翻了两倍的事情，但因为担心学历问题没敢接阿里的offer，真大佬，而且说自己要开始做一个网站。字里行间看得出这哥们也就毕业一两年的样子，大概二十三四岁。这哥们是真的热爱编程，我与对比了一下自己，嘴上说着喜欢编程，但大部分时间都用来刷推特了，注意力很容易分散，遇到一些编程问题无法解决时就想着放弃，说白了还是是知识面太窄，没有思路，写的代码太少，基础不扎实。其实这里面还是更深人的问题，因为前几年经历的一些事情以及家庭观念的影响我一直没能坚定的想走这一条路，大多数时候都在孤军奋战，很辛苦！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年龄越拖越大，牵绊的事情也是越来越多，越容易分心，最痛苦的还是爱面子的父亲一直催着找媳妇，是真的烦，我想了自己也没多大，96年也就二十四五。其实我本人也很焦虑着急，可这事又急不来，家里是农村的，以前的成长经历给我留下了很不好的记忆，不想过之前的日子。</p>
-]]></content>
-      <categories>
-        <category>闲暇时间的胡思乱想</category>
-      </categories>
-      <tags>
-        <tag>感想</tag>
-        <tag>生活</tag>
-        <tag>思考</tag>
       </tags>
   </entry>
   <entry>
@@ -87,38 +45,6 @@
         <tag>感想</tag>
         <tag>时间</tag>
         <tag>孤独</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>读木遥的博客有感</title>
-    <url>/2021/01/25/009/</url>
-    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在一个地方待久了，视野很容易被局限，心态也容易出问题。精力会被鸡毛蒜皮的事牵扯，乐趣会被八卦新闻取代。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;读万卷书，行万里路。走向更广阔的世界，思考的方式也会变得不一样。  </p>
-<ul>
-<li>推荐博客&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://blog.farmostwood.net/" target="_blank" rel="noopener">木遥的窗子</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>分享和推荐一些东西</category>
-      </categories>
-      <tags>
-        <tag>感想</tag>
-        <tag>博客</tag>
-        <tag>推荐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>简单描述从我记事起到现在的经历</title>
-    <url>/2019/10/13/002/</url>
-    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二十岁做三十岁的事情叫成熟，而三十岁去做二十岁的事情就恐怕已经不能用幼稚去形容了，我属于后者。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实在在很早的时候我就察觉到自己跟别人不太一样，大概是从小学就开始。我是在农村长大的，就是那种典型的中国式农村，交通闭塞，信息落后，我现在还能记事起的就是五岁开始的，当时我妈要去我爸那里打工，也就是深圳，村前有条毛马路，现在已经变成水泥路了，我妈经过的时候，我还在路边的小溪里面玩水，我妈抱了抱我，我以为老妈只是去办事情，马上就会回来的，鬼知道一去就是一年，后面爷爷跟我说老妈打工去了，奇怪的是当时我也没多大感触，只是怔怔不说话了一会儿，就继续玩去了。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六岁的时候开始上幼儿园，幼儿园是在隔壁村子的一座农民房改建的，一个女老师教我们所有课程，其实也就是语文数学，上完课了有时还会带我们去她家吃饭，她家就在学校附近，在我的印象中她是一位好老师，哦！对了，她姓张。幼儿园待了一年开始上小学，小学是在离家稍微远一点的镇子上，小学的六年时间里开始显现我的读书天赋，周围同学死活弄不懂的问题我觉得特别简单。每次的期中期末考试不是第一就是第二，评判名次的方式很简单，就看各科分数的总和，主要还是语文和数学，谁高谁就是第一，按年级排名，我记得当时一年纪和二年纪是两个班来着，后面学校改建三年级到六年级就变成三个班了，每个年级人数平均下来大概有一百四十人的样子。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小学有次手拉手的活动给我的印象格外深刻，就是县城的同龄孩子给我们送礼物，有包有书有各种玩的，那让我第一次感受到自卑，当然那是不清楚那是自卑，只觉得和他们在一起有点束手束脚，放不开，之前我是从来没去过镇子以外的任何地方。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有点事情，待会继续写…..<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上面说完了小学，接着说初中，初中那个十五六岁的年纪应该算是最容易出心理问题的时候，我也不例外。镇上就一所中学，又都是留守儿童，总有发生一些打架斗殴、欺凌学生的烂事，虽然我并没有参与其中，但这确确实实影响了我。那时候我很喜欢看书，特别爱幻想，成绩也还保持的不错，发生转变是在初二换班的时候。　　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;刚刚电脑出了点问题，我没啥心思写了，就简单描述一下把，后面成绩变得很差，上了县里最差的一所高中，接着又上了个大专。大专毕业工作不太好找，一直在瞎混，工资很低，而且我又特别喜欢吃，都用在这上面了。曾经还有过一段时间想移民，后来发现不现实，就彻底放弃了。关于爱情：追过两个女孩，没有一次是成功的，都是被拒绝，她们现在好像都结婚了。 </p>
-]]></content>
-      <categories>
-        <category>闲暇时间的胡思乱想</category>
-        <category>一段时间的回顾</category>
-      </categories>
-      <tags>
-        <tag>关于</tag>
-        <tag>感想</tag>
-        <tag>回顾</tag>
       </tags>
   </entry>
   <entry>
@@ -204,6 +130,49 @@
       </tags>
   </entry>
   <entry>
+    <title>使用tomcat遇到的一些问题及处理办法</title>
+    <url>/2020/12/21/007/</url>
+    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近搭建tomcat遇到了不少问题，其实都是一些低级问题，解决以后才发现原来这么简单，但人们总是会忽略一些简单的问题，导致卡在那里耽误不少时间，我把我遇到的一些坑汇总一下给大家提供参考借鉴：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在使用IDEA创建完web项目并部署到tomcat启动以后，页面总是会跳转到默认生成的index.jsp 界面，因为我web.xml自带的只有5.0版本，servlet通过注解调用完以后，只能通过地址栏输入的方式显示form表单数据，这样很麻烦，就像往常的注册登录肯定是打开网页直接就定向到此页面，于是通过Google解决了此问题（尽量学会科学上网，国内搜索引擎的搜索质量都太低，不会科学上网的我这篇<a href="https://kirkzheng.github.io/2019/07/18/006/">文章</a>有教程），在web.xml添加如下代码：  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;welcome-file-list&gt;</span><br><span class="line">        &lt;welcome-file&gt;这里写你要定向到的页面&lt;&#x2F;welcome-file&gt;</span><br><span class="line">&lt;&#x2F;welcome-file-list&gt;</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另外tomcat在每次构建完新的项目以后都会生成新的构建，所以最后不要频繁重启服务器，只需要重新部署即可。在项目完成后，进行打包操作后，tomcat服务器也经常会运行打包后war文件，需要对war包进行一个移除操作，tomcat启动时会自动对war进行一个解压缩操作。  </p>
+<ul>
+<li>【问题】log4j:WARN Please initialize the log4j system properly.没有正确初始化连接池)  </li>
+<li>【解决办法】新建一个log4j配置文件，在里面添加以下内容：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">log4j.rootLogger&#x3D;INFO,logfile,stdout</span><br><span class="line"></span><br><span class="line">#log4j.logger.org.springframework.web.servlet&#x3D;INFO,db</span><br><span class="line"></span><br><span class="line">#log4j.logger.org.springframework.beans.factory.xml&#x3D;INFO</span><br><span class="line">#log4j.logger.com.neam.stum.user&#x3D;INFO,db</span><br><span class="line"></span><br><span class="line">#log4j.appender.stdout&#x3D;org.apache.log4j.ConsoleAppender</span><br><span class="line">#log4j.appender.stdout.layout&#x3D;org.apache.log4j.PatternLayout</span><br><span class="line">#log4j.appender.stdout.layout.ConversionPattern&#x3D;%d&#123;yyyy-MM-ddHH\:mm\:ss&#125;%p[%c]%X&#123;remoteAddr&#125;%X&#123;remotePort&#125;%X&#123;remoteHost&#125;%X&#123;remoteUser&#125;operator\:[\u59D3\u540D\:%X&#123;userName&#125;\u5DE5\u53F7\:%X&#123;userId&#125;]message\:&lt;%m&gt;%n</span><br><span class="line"></span><br><span class="line">#writelogintofile</span><br><span class="line">log4j.appender.logfile&#x3D;org.apache.log4j.DailyRollingFileAppender</span><br><span class="line">log4j.appender.logfile.Threshold&#x3D;warn</span><br><span class="line">log4j.appender.logfile.File&#x3D;$&#123;webapp.root&#125;\\logs\\main.log</span><br><span class="line">log4j.appender.logfile.DatePattern&#x3D;.yyyy-MM-dd</span><br><span class="line">log4j.appender.logfile.layout&#x3D;org.apache.log4j.PatternLayout</span><br><span class="line">log4j.appender.logfile.layout.ConversionPattern&#x3D;[AppLog]%d&#123;yyyy-MM-ddHH\:mm\:ss&#125;%X&#123;remoteAddr&#125;%X&#123;remotePort&#125;%m%n</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li>数据库语句越界异常<br><code>java.sql.SQLException: Parameter index out of range (1 &gt; number of parameters, which is 0).</code><br>【解决】数据库语句用了中文状态下的符号，改成英文就行</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java基础知识</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>tomcat</tag>
+        <tag>基础</tag>
+        <tag>问题</tag>
+        <tag>处理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>昨晚睡不着，思考的几件小事</title>
+    <url>/2021/01/03/008/</url>
+    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有一段时间没写博客了，估摸着两周到三周的样子，主要原因还是没时间，因为最近学习的内容变多了，尤其是servlet+jsp这一块，有多东西理解不了，单个还好，要是整个项目连起来就不找到从何下手。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我很早之前的时候在V2无意间关注了一个叫编码妙妙屋的个站，觉得写的挺好，就加了友链，但一直没怎么认真观看里面的内容，昨天晚上实在睡不着就开始认真阅读他的博文，谁知道看完以后更加睡不着，心想这哥们也太牛逼了吧！最近的几篇文章说他因为上份工作做得不开心从二线跑了一线工资翻了两倍的事情，但因为担心学历问题没敢接阿里的offer，真大佬，而且说自己要开始做一个网站。字里行间看得出这哥们也就毕业一两年的样子，大概二十三四岁。这哥们是真的热爱编程，我与对比了一下自己，嘴上说着喜欢编程，但大部分时间都用来刷推特了，注意力很容易分散，遇到一些编程问题无法解决时就想着放弃，说白了还是是知识面太窄，没有思路，写的代码太少，基础不扎实。其实这里面还是更深人的问题，因为前几年经历的一些事情以及家庭观念的影响我一直没能坚定的想走这一条路，大多数时候都在孤军奋战，很辛苦！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年龄越拖越大，牵绊的事情也是越来越多，越容易分心，最痛苦的还是爱面子的父亲一直催着找媳妇，是真的烦，我想了自己也没多大，96年也就二十四五。其实我本人也很焦虑着急，可这事又急不来，家里是农村的，以前的成长经历给我留下了很不好的记忆，不想过之前的日子。</p>
+]]></content>
+      <categories>
+        <category>闲暇时间的胡思乱想</category>
+      </categories>
+      <tags>
+        <tag>感想</tag>
+        <tag>思考</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java常见异常及处理方法</title>
     <url>/2020/12/17/005/</url>
     <content><![CDATA[<ul>
@@ -251,6 +220,50 @@
         <tag>win10</tag>
         <tag>配置</tag>
         <tag>优化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>读木遥的博客有感</title>
+    <url>/2021/01/25/009/</url>
+    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在一个地方待久了，视野很容易被局限，心态也容易出问题。精力会被鸡毛蒜皮的事牵扯，乐趣会被八卦新闻取代。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;读万卷书，行万里路。走向更广阔的世界，思考的方式也会变得不一样。  </p>
+<ul>
+<li>推荐博客&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://blog.farmostwood.net/" target="_blank" rel="noopener">木遥的窗子</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>分享和推荐一些东西</category>
+      </categories>
+      <tags>
+        <tag>感想</tag>
+        <tag>博客</tag>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>烦心事</title>
+    <url>/2021/02/18/011/</url>
+    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;穷人总喜欢教育自己的孩子要听话，自己却给不了他们与人文明礼貌相处的环境，小时候受的创伤也不知怎么开导，工作生活上的所有事情都帮不上忙。天天说自己好辛苦好累，我不知说这些到底有啥用？？？<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;生个女儿怪没有找个好女婿，生个儿子怪没有找个好媳妇。天天责怪来责怪去，犯了点错就说不听话，要死要活，真的累？？</p>
+]]></content>
+      <categories>
+        <category>闲暇时间的胡思乱想</category>
+      </categories>
+      <tags>
+        <tag>感想</tag>
+        <tag>烦恼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>几点经验</title>
+    <url>/2021/01/25/010/</url>
+    <content><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;之前没体验过的东西总是挂念于心，想着去体验一番，体验之后就再也不想经历第二次，除非是不得不做。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从经历过的事情中又可以反向得出原来是这样的规律，套用到很多地方。之前因为没被威胁过，所以很怕，不知道怎么处理，事后却发现什么事情也没有，以后遇到类似的事情也不至于慌乱。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所处的环境会产生很多环境带来的问题，选择环境很重要。胆小的原因大多是没人兜底，怕承担不起后果，这时候只能靠自己，大多数人都怕死，你只要不怕死，别人就会怕你，前提是你没做错什么。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一部分人喜欢教导他人顺从听话，做事畏手畏脚，一辈子小心谨慎，守着个一亩三分地，毫无社会价值。一部分人穷却又狂妄自大，最后慢慢变坏，沦为社会的蛀虫。两类都不可取。</p>
+]]></content>
+      <categories>
+        <category>闲暇时间的胡思乱想</category>
+      </categories>
+      <tags>
+        <tag>感想</tag>
+        <tag>生活</tag>
+        <tag>经验</tag>
       </tags>
   </entry>
 </search>
