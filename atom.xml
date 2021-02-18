@@ -148,13 +148,13 @@
     
     <category term="Java" scheme="https://kirkzheng.github.io/tags/Java/"/>
     
-    <category term="tomcat" scheme="https://kirkzheng.github.io/tags/tomcat/"/>
-    
     <category term="基础" scheme="https://kirkzheng.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
     
     <category term="问题" scheme="https://kirkzheng.github.io/tags/%E9%97%AE%E9%A2%98/"/>
     
     <category term="处理" scheme="https://kirkzheng.github.io/tags/%E5%A4%84%E7%90%86/"/>
+    
+    <category term="tomcat" scheme="https://kirkzheng.github.io/tags/tomcat/"/>
     
   </entry>
   
@@ -181,13 +181,13 @@
     
     <category term="Java" scheme="https://kirkzheng.github.io/tags/Java/"/>
     
+    <category term="异常" scheme="https://kirkzheng.github.io/tags/%E5%BC%82%E5%B8%B8/"/>
+    
     <category term="基础" scheme="https://kirkzheng.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
     
     <category term="问题" scheme="https://kirkzheng.github.io/tags/%E9%97%AE%E9%A2%98/"/>
     
     <category term="处理" scheme="https://kirkzheng.github.io/tags/%E5%A4%84%E7%90%86/"/>
-    
-    <category term="异常" scheme="https://kirkzheng.github.io/tags/%E5%BC%82%E5%B8%B8/"/>
     
   </entry>
   
