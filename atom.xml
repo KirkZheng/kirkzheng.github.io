@@ -6,7 +6,7 @@
   <link href="https://kirkzheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://kirkzheng.github.io/"/>
-  <updated>2021-02-19T04:26:42.437Z</updated>
+  <updated>2021-02-20T08:57:58.919Z</updated>
   <id>https://kirkzheng.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>出去走了走</title>
+    <link href="https://kirkzheng.github.io/2021/02/20/013/"/>
+    <id>https://kirkzheng.github.io/2021/02/20/013/</id>
+    <published>2021-02-20T08:35:21.000Z</published>
+    <updated>2021-02-20T08:57:58.919Z</updated>
+    
+    <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今天醒来的时候已经是下午一点多了，脑袋昏昏沉沉的。因为手机有点坏了，写了会代码，没有事情可以干，就去西乡那边看看手机，地铁也就两个站。介于之前一直用的诺基亚x6，安卓原生的特性，一加也就成了我的不二之选，简洁好用。在网上已经看不少相关的测评，但还是没有实际体验过，官网上查询到离我最近的一加线下授权体验店是在西乡的苏宁易购圣淘沙店。进店问了下店员找到一加8开始上手体验，还行，跟我预期的差不多，预装谷歌了套件，国内也适配了应用商店，跟我现在用的诺基亚x6能完美过渡，但是我还是要等等再买，主要是当前预算不够。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实买手机只是一个借口罢了，主要还是想去出去走走，一直在宿舍待着感觉心理都有点问题，然而看着街上出双入对的情侣，孤独感反而更加强烈了。过年的跟爸吵了一架，我是真的受不了他，这已经不是第一次这样了，他这个人是不会改变的。他已经严重影响了我的心理，搞得我始终无法平和的去处理事情，更别说找媳妇儿了，我一定要远离他，我得存钱把我自己和妈照顾好。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;今天醒来的时候已经是下午一点多了，脑袋昏昏沉沉的。因为手机有点坏了，写了会代码，没有事情可以干，就去西乡那边看看手机，地铁也就两个站。介于之前一直用的诺基亚x6，安卓原生的特性，</summary>
+      
+    
+    
+    
+    <category term="闲暇时间的胡思乱想" scheme="https://kirkzheng.github.io/categories/%E9%97%B2%E6%9A%87%E6%97%B6%E9%97%B4%E7%9A%84%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
+    
+    
+    <category term="感想" scheme="https://kirkzheng.github.io/tags/%E6%84%9F%E6%83%B3/"/>
+    
+    <category term="生活" scheme="https://kirkzheng.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>第一次</title>
@@ -178,13 +204,13 @@
     
     <category term="Java" scheme="https://kirkzheng.github.io/tags/Java/"/>
     
+    <category term="tomcat" scheme="https://kirkzheng.github.io/tags/tomcat/"/>
+    
     <category term="基础" scheme="https://kirkzheng.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
     
     <category term="问题" scheme="https://kirkzheng.github.io/tags/%E9%97%AE%E9%A2%98/"/>
     
     <category term="处理" scheme="https://kirkzheng.github.io/tags/%E5%A4%84%E7%90%86/"/>
-    
-    <category term="tomcat" scheme="https://kirkzheng.github.io/tags/tomcat/"/>
     
   </entry>
   
@@ -211,13 +237,13 @@
     
     <category term="Java" scheme="https://kirkzheng.github.io/tags/Java/"/>
     
-    <category term="异常" scheme="https://kirkzheng.github.io/tags/%E5%BC%82%E5%B8%B8/"/>
-    
     <category term="基础" scheme="https://kirkzheng.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
     
     <category term="问题" scheme="https://kirkzheng.github.io/tags/%E9%97%AE%E9%A2%98/"/>
     
     <category term="处理" scheme="https://kirkzheng.github.io/tags/%E5%A4%84%E7%90%86/"/>
+    
+    <category term="异常" scheme="https://kirkzheng.github.io/tags/%E5%BC%82%E5%B8%B8/"/>
     
   </entry>
   
