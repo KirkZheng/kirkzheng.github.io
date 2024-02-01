@@ -372,9 +372,9 @@
     
     <category term="杂谈" scheme="http://example.com/tags/%E6%9D%82%E8%B0%88/"/>
     
-    <category term="工作" scheme="http://example.com/tags/%E5%B7%A5%E4%BD%9C/"/>
-    
     <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="工作" scheme="http://example.com/tags/%E5%B7%A5%E4%BD%9C/"/>
     
     <category term="思考" scheme="http://example.com/tags/%E6%80%9D%E8%80%83/"/>
     
