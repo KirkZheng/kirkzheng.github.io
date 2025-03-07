@@ -1314,6 +1314,20 @@ pre .javascript .function {
   -o-transform: rotate(30deg);
   transform: rotate(30deg);
 }
+.use-motion .post-block,
+.use-motion .pagination,
+.use-motion .comments {
+  opacity: 0;
+}
+.use-motion .post-header {
+  opacity: 0;
+}
+.use-motion .post-body {
+  opacity: 0;
+}
+.use-motion .collection-title {
+  opacity: 0;
+}
 .posts-expand {
   padding-top: 40px;
 }
@@ -1895,7 +1909,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #881447;
+  background: #96ff20;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2994,43 +3008,4 @@ hr {
     width: auto;
     text-align: center;
   }
-}
-.post {
-  margin: 24px 0;
-  padding: 24px;
-  background: #fff;
-  border-radius: 2px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-.post:hover {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-.btn {
-  padding: 8px 16px;
-  border-radius: 2px;
-  text-transform: uppercase;
-  font-weight: 500;
-  transition: all 0.2s ease;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
-}
-.btn:hover {
-  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
-}
-body {
-  background-color: #fafafa;
-}
-input[type="text"],
-input[type="email"],
-textarea {
-  border: none;
-  border-bottom: 1px solid rgba(0,0,0,0.12);
-  outline: none;
-  height: 2.1rem;
-  transition: all 0.3s;
-}
-input[type="text"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-  border-bottom: 2px solid #3f51b5;
 }

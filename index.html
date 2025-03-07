@@ -2,8 +2,10 @@
 
 
 
+  
 
-<html class="theme-next mist" lang="zh-Hans">
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -39,6 +41,10 @@
 
 
 
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -96,9 +102,9 @@
     scheme: 'Mist',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":true},
-    fancybox: false,
+    fancybox: true,
     tabs: true,
-    motion: {"enable":false,"async":false,"transition":{"post_block":false,"post_header":false,"post_body":false,"coll_header":false,"sidebar":false}},
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: 'undefined',
       author: '博主'
@@ -290,7 +296,7 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2025/02/28/5/" itemprop="url">猪的介绍</a></h2>
+                <a class="post-title-link" href="/2025/02/28/5/" itemprop="url">关于一头猪的介绍</a></h2>
         
 
         <div class="post-meta">
@@ -318,7 +324,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2025-03-07T09:13:31+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2025-03-07T13:46:05+08:00">
                 2025-03-07
               </time>
             
@@ -502,7 +508,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2025-03-07T09:49:01+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2025-03-07T13:50:06+08:00">
                 2025-03-07
               </time>
             
@@ -1347,6 +1353,8 @@
 
 
 
+  
+
 
 
 
@@ -1381,6 +1389,11 @@
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
 
